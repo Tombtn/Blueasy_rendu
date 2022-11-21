@@ -1,0 +1,283 @@
+
+body{
+    background-color: white;
+}
+
+.main{
+    height: 100vh;
+    background-image: url("images/HERO.jpg");
+    filter: grayscale(100%);
+
+
+}
+
+.menu{
+    background-color: rgba(0, 0, 0, 0.414);
+    
+}
+
+.pages{
+    display: flex;
+    justify-content: left;
+
+}
+
+.navbar_title{
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+    padding: 15px 15px 15px 15px;
+}
+
+header{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0.498);
+}
+
+.unexpected{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.unexpected_phrase{
+    background-color: rgba(0, 0, 0, 0.278);
+    font-weight: 400;
+}
+
+.services{
+    padding: 5% 5% 5% 5%;
+    background-color: rgb(65, 204, 255);
+    color: white;
+}
+
+.col{
+    margin: 0;
+}
+
+h2{
+    padding-top: 10;
+}
+
+.trait{
+    height: 3px;
+    width: 6%;
+    background-color: white;
+}
+
+.portfolio{
+    padding: 5% 5% 5% 5%;
+    background-color: white;
+    color: black;
+}
+
+.headerportfolio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo{
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.photo1{
+    background-image: url(images/portfolio/1.png);
+}
+
+.photo2{
+    background-image: url(images/portfolio/2.png);
+}
+
+.photo3{
+    background-image: url(images/portfolio/3.png);
+}
+
+.photo4{
+    background-image: url(images/portfolio/4.png);
+}
+
+.photo5{
+    background-image: url(images/portfolio/5.png);
+}
+
+.photo6{
+    background-image: url(images/portfolio/6.png);
+}
+
+.photo7{
+    background-image: url(images/portfolio/7.png);
+}
+
+.photo8{
+    background-image: url(images/portfolio/8.png);
+}
+
+
+.defaultSection {
+    background-color: #515F67;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.defaultSection .defaultSec {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.separationSection {
+    height: 3px;
+    background-color: white;
+    width: 10%;
+}
+
+.texts {
+    width: 40%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 10px;
+    width: 30%;
+}
+
+.twitter {
+    background-color: #4BCAFF;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.containerTwitter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.separationTwitter {
+    height: 3px;
+    background-color: white;
+    width: 45%;
+}
+
+.twitter img {
+    width: 3%;
+    height: 3%;
+}
+
+.john {
+    background-color: #8CB3D7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.imagesjohndoe {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+}
+
+.imagesjohndoe img {
+    margin-right: 30px;
+}
+
+.navbarTesti {
+    color: black;
+}
+
+.containerTesti {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titreTesti {
+    color: black;
+}
+
+.separationTesti {
+    height: 3px;
+    background-color: black;
+    width: 45%;
+}
+
+.testiContent {
+    color: black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.containerTesti img {
+    width: 3%;
+    height: 3%;
+}
+
+.testiContent .lorem {
+    margin-top: 75px;
+}
+
+.testiContent .bleu {
+    margin-top: 20px;
+    color: #4BCAFF;
+}
+
+.contact {
+    background-color: #8CB3D7;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.form .name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form .col-6 {
+    width: 49%;
+}
+
+.mb-3 input {
+    background-color: #8CB3D7;
+}
+
+.col-12 textarea {
+    background-color: #8CB3D7;
+}
+
+button {
+    border: none;
+    background-color: #4BCAFF;
+    color: white;
+}
+
+.footer {
+    background-color: #353F46;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerContent .menu a{
+    text-decoration: none;
+    color: white;
+}
